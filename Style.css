@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetting default styles */
+* {
+    
+  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.buy-now {
+    width: auto; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #ffd700; /* Change to desired color */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buy-now:hover {
+    background-color: #ffcc00; /* Change color on hover */
+}
+
+
+*{
+    margin : 0px;
+    padding :  0px;
+}
+
+
+.foot-2 {
+    height : 183px;
+    background-color: #bbb7ee;
+
+
+}
+
+.part1 ul {
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.part1 ul li {
+    list-style: none;
+    margin-top: 42px;
+}
+
+.part1 ul li h2 {
+    color : rebeccapurple;
+
+}
+
+.hroz {
+    color :#bbb7ee;
+    margin-top: 11px;
+    width : 979px;
+    margin-left: 148px;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+    width : 1156px;
+}
+
+.one ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width : 280px;
+    margin-left: 121px;
+
+   
+}
+
+.one ul li {
+    color : whitesmoke;
+}
+
+.two ul  {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 217px;
+}
+
+.two ul li {
+    color : whitesmoke;
+}    
